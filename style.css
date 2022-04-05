@@ -37,6 +37,9 @@ body {
   line-height: 1.5;
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* A elements that don't have a class get default styles */
@@ -143,13 +146,17 @@ p {
 }
 
 
+.card .border {
+  border: 0.1px solid hsl(215, 51%, 70%);
+}
+
 .card .footer {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
-  border-top: 1px thin solid hsl(215, 51%, 70%);
 }
+
 
 .card .footer img {
   width: 15%;
