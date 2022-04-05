@@ -109,6 +109,14 @@ p {
   color: hsl(178, 100%, 50%);
 }
 
+.font-size-2 {
+  font-size: 1.5rem
+}
+
+.bold {
+  font-weight: 600;
+}
+
 /* BLOCK LEVEL CLASSES */
 
 .card {
@@ -138,7 +146,9 @@ p {
 .card .footer {
   display: flex;
   align-items: center;
-  border-top: 1px solid hsl(215, 51%, 70%);
+  justify-content: flex-start;
+  gap: 20px;
+  border-top: 1px thin solid hsl(215, 51%, 70%);
 }
 
 .card .footer img {
