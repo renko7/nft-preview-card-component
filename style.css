@@ -109,3 +109,38 @@ p {
   color: hsl(178, 100%, 50%);
 }
 
+/* BLOCK LEVEL CLASSES */
+
+.card {
+  padding: 2em;
+  border-radius:14px;
+}
+
+.card img {
+  border-radius: 14px;
+}
+
+.card .information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .information .item {
+  display: flex;
+  align-items: center;
+}
+
+.card .information .item img {
+  margin-right: 0.3em;
+}
+
+
+.card .footer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid hsl(215, 51%, 70%);
+}
+
+.card .footer img {
+  width: 15%;
+}
